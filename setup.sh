@@ -8,7 +8,7 @@
     vared -p "Enter Scratch Org Alias: " -c soAlias 
     vared -p "Enter and Integer for Scratch Org preferred duration ( 1 - 30 ) " -c duration
 
-    # Salesforce DX commands passing the parameter from user imput
+    # Salesforce DX commands passing the parameter from user input
     sfdx force:org:create -f config/project-scratch-def.json -s -a $soAlias --setdefaultusername --durationdays $duration adminEmail=$adminEmail \
          username=$username
     sfdx force:source:push
