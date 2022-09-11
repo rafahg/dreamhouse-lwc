@@ -1,6 +1,7 @@
 {
     "orgName": "Dreamhouse",
     "edition": "Developer",
+    "language": "en_US",
     "features": ["Walkthroughs", "EnableSetPasswordInApi"],
     "settings": {
         "lightningExperienceSettings": {
